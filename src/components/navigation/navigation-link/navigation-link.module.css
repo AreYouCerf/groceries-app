@@ -1,0 +1,23 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link span {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+@media (width >=414px) {
+  .link span {
+    font-size: 12px;
+  }
+}
+
+@media (width >=768px) {
+  .link span {
+    font-size: 16px;
+  }
+}

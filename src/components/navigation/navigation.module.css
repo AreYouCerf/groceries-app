@@ -1,0 +1,12 @@
+.navigationBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+  background: #FFF;
+  box-shadow: 0 -12px 37px 0 rgba(230, 235, 243, 0.50);
+  padding: 16px 20px 33px 20px;
+}
