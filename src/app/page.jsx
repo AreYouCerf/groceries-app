@@ -2,7 +2,7 @@ import NavigationBar from '@/components/navigation/navigation.jsx'
 import UserLocation from '@/components/user-location/user-location.jsx'
 import Icon from '@/components/ui/icon-comp/icon.jsx'
 import ProductSlider from '@/components/product-slider/product-slider'
-import CategorySlider from '@/components/categories-slider/categories-slider'
+import GroceriesSection from '@/components/groceries-section/groceries-section'
 import { groceries, categories } from '@/components/groceries-list/groceries-list'
 import styles from './page.module.css'
 
@@ -17,8 +17,7 @@ export default function Home() {
         <UserLocation />
         <ProductSlider title='Exclusive Offer' items={exclusiveOffer} />
         <ProductSlider title='Best Selling' items={bestSelling} />
-        <CategorySlider categories={categories} />
-
+        <GroceriesSection categories={categories} products={groceries} />
       </main>
       <NavigationBar />
     </>

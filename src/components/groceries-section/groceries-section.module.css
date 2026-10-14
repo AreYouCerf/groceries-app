@@ -1,0 +1,46 @@
+.section {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #181725;
+  margin: 0;
+}
+
+.seeAll {
+  font-size: 16px;
+  font-weight: 600;
+  color: #53B175;
+  text-decoration: none;
+}
+
+.sliderContainer {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 5px 20px 15px 20px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.cardWrapper {
+  flex: 0 0 170px;
+}
